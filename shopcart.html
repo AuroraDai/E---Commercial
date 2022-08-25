@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Cart</title>
+    <link rel="stylesheet" href="./css/common.css">
+    <link rel="stylesheet" href="./css/base.css">
+    <link rel="shortcut icon" href="favicon.ico">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+    <link rel="stylesheet" href="./css/shopcart.css">
+
+</head>
+
+<body>
+
+    <div class="logo-nav">
+        <h1>
+            <a href="index.html" title="UpHead">
+                <img src="img/LOGO_WHITE.jpeg" alt="UPHEAD">
+            </a>
+        </h1>
+    </div>
+    <!-- shoping cart section start -->
+
+    <div class="shopcart-container">
+        <!-- shoping cart product list -->
+        <div class="shopcart-list-box">
+            <div class="shopcart-mybag">
+                <h1 id="mybag">My Bag</h1>
+
+                <div class="shopcart-product-list">
+                    <ul class="shopList_ul">
+                        <li>
+                            <input type="checkbox" class="check">
+                            <div class="cart-product-img">
+                                <img src="./img/top1.jpg" alt="">
+                            </div>
+                            <div class="cart-product-info">
+                                <h3 class="cart-product-name">
+                                    <a href="#" id="cart-product-name">UPHEAD Hoodie</a>
+                                    <a href="#" class="remove-item">Remove</a>
+                                </h3>
+                                <div class="cart-product-detail">
+                                    <span class="product-color">Purple</span>
+                                    /
+                                    <span class="product-size">
+                                        <label for="shop-cart-size">Size</label>
+                                        <span>M</span>
+                                    </span>
+                                </div>
+
+                                <div class="cart-product-price-calc">
+
+                                    <div class="item-price-box">
+                                        <span>Item Price</span>
+                                        <span class="product-item-price">$110</span>
+                                    </div>
+
+                                    <div class="item-quantity-box">
+                                        <span>Quantity</span>
+                                        <span class="product-quantity">
+                                            <button class="minus">-</button>
+                                            <input type="text" class="productNum" value="1">
+                                            <button class="add">+</button>
+                                        </span>
+                                    </div>
+
+                                    <div class="item-total-price-box">
+                                        <span>Total Price</span>
+                                        <span class="product-item-total-price">$110</span>
+                                    </div>
+
+
+                                </div>
+
+
+
+
+
+                            </div>
+
+                        </li>
+                        <li>
+                            <input type="checkbox" class="check">
+                            <div class="cart-product-img">
+                                <img src="./img/top1.jpg" alt="">
+                            </div>
+                            <div class="cart-product-info">
+                                <h3 class="cart-product-name">
+                                    <a href="#" id="cart-product-name">UPHEAD Hoodie</a>
+                                    <a href="#" class="remove-item">Remove</a>
+                                </h3>
+                                <div class="cart-product-detail">
+                                    <span class="product-color">Purple</span>
+                                    /
+                                    <span class="product-size">
+                                        <label for="shop-cart-size">Size</label>
+                                        <span>M</span>
+                                    </span>
+                                </div>
+
+                                <div class="cart-product-price-calc">
+
+                                    <div class="item-price-box">
+                                        <span>Item Price</span>
+                                        <span class="product-item-price">$300</span>
+                                    </div>
+
+                                    <div class="item-quantity-box">
+                                        <span>Quantity</span>
+                                        <span class="product-quantity">
+                                            <button class="minus">-</button>
+                                            <input type="text" class="productNum" value="1">
+                                            <button class="add">+</button>
+                                        </span>
+                                    </div>
+
+                                    <div class="item-total-price-box">
+                                        <span>Total Price</span>
+                                        <span class="product-item-total-price">$300</span>
+                                    </div>
+
+
+                                </div>
+
+
+
+
+
+                            </div>
+
+                        </li>
+
+                    </ul>
+                </div>
+            </div>
+
+        </div>
+        <!-- shoping cart product list end -->
+
+        <!-- shoping cart total summary  -->
+        <div class="order-summary-box">
+            <h1 id="#order-summary">Summary</h1>
+
+            <div class="oder-payment-detail">
+                <div class="order-subtotal">
+                    <label for="subtotal">Subtotal</label>
+                    <span>$<span id="subtotal"></span></span>
+                </div>
+                <div class="order-shipping-fee">
+                    <label for="shipping-fee">Estimated Shipping & Handling</label>
+                    <span>$<span id="shipping-fee">7.00</span></span>
+                </div>
+                <div class="order-tax">
+                    <label for="tax">Tax</label>
+                   <span>$<span id="tax"></span></span> 
+                </div>
+
+            </div>
+
+            <div class="total-cost">
+                <div class="order-estimated-total">
+                    <label for="estimated-total">Estimated Total</label>
+                   <span>$<span id="estimated-total"></span></span> 
+                </div>
+            </div>
+
+            <button id="checkout-btn">Checkout</button>
+
+        </div>
+        <!-- shoping cart total summary  end-->
+
+    </div>
+
+
+    
+
+    <!-- shoping cart section end -->
+
+
+    <!-- footer start -->
+    <footer>
+        <div class="social-media-icons">
+            <a href="https://www.instagram.com/uphead.up/related_profiles/" target="_blank">
+                <img src="./img/ins.png" alt="">
+            </a>
+            <a href="https://www.instagram.com/uphead.up/related_profiles/" target="_blank">
+                <img src="./img/wechat.png" alt="">
+            </a>
+        </div>
+        <div class="mod_services">
+            <div class="copyright">© UPHEAD,LLC. All Rights Reserved</div>
+            <div class="help-section">
+                <ul class="help-list">
+                    <li><a href="#">contact</a></li>
+                    <li><a href="#">location</a></li>
+                    <li><a href="#">Accessibility Policy</a></li>
+                    <li><a href="#">Term of Use</a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+    <!-- footer end -->
+
+    <script src="./js/jquery.js"></script>
+    <script src="./js/index.js"></script>
+    <script src="./js/shopcart.js"></script>
+</body>
+
+</html>
