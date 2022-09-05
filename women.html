@@ -451,7 +451,11 @@
     <!-- footer end -->
     <script src="./js/jquery.js"></script>
     <script src="./js/mobileMenu.js"></script>
-
+     <script>
+        $('.nav_ul li').hover(function () {
+            $(this).children('.dropdown-container').stop().slideToggle(200);
+        })
+    </script>
 </body>
 
 </html>
