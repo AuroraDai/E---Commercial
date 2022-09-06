@@ -3,7 +3,12 @@
 UPHEAD is a fashion store that sells limited-quantity shoes, clothes, pants and milk teas.
 # Objective
 Using characteristics under HTML and CSS to create a webpage that are responsive and flexible. This project uses different possible propertities of CSS, HTML, JavaScript and JQuery to make the webepage look comfortable, simple, and easy to use.
-
+# Features
+- Home/Main webpage
+- Collection webpage
+- Helping center webpage
+- Basic shopping cart
+- Responsive webpage
 ## Tech
 
 - Using JQuery to implement carousel;
