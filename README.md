@@ -8,8 +8,8 @@ Using characteristics under HTML and CSS to create a webpage that are responsive
 
 - Using JQuery to implement carousel;
 - By using effects of CSS3 make pages more appealing and also increase the user experience;
-- When the screen shrinks, the content adaptive according to the size of the screen, so mobile users can also have a good experiences.
-- Basic shopping cart interface, useing JQuery to calculated items total cost. 
+- When the screen shrinks, the content adaptive according to the size of the screen, so mobile users can also have a good experiences;
+- Basic shopping cart interface, useing JQuery to calculated items total cost;
 
 ## Demo
   ### Uphead Main Page/mobile                                                           
