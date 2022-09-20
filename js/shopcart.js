@@ -23,14 +23,14 @@ $('.add').click(function () {
 })
 
 $('.minus').click(function () {
-    //取得 当前文本框里的值
+    //Gets the value in the current text field
     let product_Number = $(this).siblings('.productNum').val();
-    //当文本框的数字等于1 的时候文本框不再改变,不再进行减法操作
+    //When the number in the text box is equal to 1, the text box is no longer changed and no subtraction is performed
     if (product_Number == 1) {
         return false;
     }
     product_Number--;
-    //减去之后的值赋值给文本框
+    //after subtracted, the value is assigned to the text box
     $(this).siblings('.productNum').val(product_Number);
 
     let single_product_price = $(this).parent().parents().siblings().children('.product-item-price').text().substr(1);
@@ -66,7 +66,7 @@ function getCheckoutTotal(){
 }
 
 
-//删除当前商品
+//detelte current chosen product
 $('.remove-item').click(function () {
     $(this).parents('li').remove()
     getProdTotal();
